@@ -165,7 +165,8 @@ body.anp-colorful-frame-icon-toggle-dark.theme-dark {
                     }
                 }
 
-                --tab-text-color-focused-active-current: var(--colorful-icon-color-alt);
+                & {
+                --tab-text-color-focused-active-current: var(--colorful-icon-color-alt);}
             }
         }
     }

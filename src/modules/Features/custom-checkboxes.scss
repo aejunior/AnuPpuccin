@@ -32,9 +32,10 @@ Icons were taken from Font Awesome: https://fontawesome.com/
                 left: calc(var(--checkbox-size) * 1);
                 font-weight: bold;
             }
+            & {
 
             --checkbox-color: rgb(var(--ctp-yellow));
-            --checkbox-color-hover: rgb(var(--ctp-yellow));
+            --checkbox-color-hover: rgb(var(--ctp-yellow));}
         }
     }
 
@@ -57,10 +58,11 @@ Icons were taken from Font Awesome: https://fontawesome.com/
                 left: calc(var(--checkbox-size) * 1);
                 font-weight: bold;
             }
+            & {
 
             --checkbox-color: transparent;
             --checkbox-color-hover: transparent;
-            border-width: 0;
+            border-width: 0;}
         }
     }
 
@@ -82,8 +84,9 @@ Icons were taken from Font Awesome: https://fontawesome.com/
                 font-weight: bold;
             }
 
+            & {
             --checkbox-color: rgb(var(--ctp-red));
-            --checkbox-color-hover: rgb(var(--ctp-red));
+            --checkbox-color-hover: rgb(var(--ctp-red));}
         }
 
         text-decoration: var(--checklist-done-decoration);
@@ -109,10 +112,11 @@ Icons were taken from Font Awesome: https://fontawesome.com/
                 left: calc(var(--checkbox-size) * 1);
                 font-weight: bold;
             }
-
+            & {
             --checkbox-color: transparent;
             --checkbox-color-hover: transparent;
-            border-width: 0;
+            border-width: 0;}
+
         }
     }
 
@@ -136,9 +140,10 @@ Icons were taken from Font Awesome: https://fontawesome.com/
                 font-weight: bold;
             }
 
+            & {
             --checkbox-color: transparent;
             --checkbox-color-hover: transparent;
-            border-width: 0;
+            border-width: 0;}
         }
     }
 
@@ -162,9 +167,10 @@ Icons were taken from Font Awesome: https://fontawesome.com/
                 font-weight: bold;
             }
 
+            & {
             --checkbox-color: transparent;
             --checkbox-color-hover: transparent;
-            border-width: 0;
+            border-width: 0;}
         }
     }
 
@@ -187,10 +193,11 @@ Icons were taken from Font Awesome: https://fontawesome.com/
                 left: calc(var(--checkbox-size) * 1);
                 font-weight: bold;
             }
-
+            & {
             --checkbox-color: transparent;
             --checkbox-color-hover: transparent;
-            border-width: 0;
+            border-width: 0;}
+
         }
     }
 
@@ -213,10 +220,11 @@ Icons were taken from Font Awesome: https://fontawesome.com/
                 left: calc(var(--checkbox-size) * 1);
                 font-weight: bold;
             }
-
+            & {
             --checkbox-color: transparent;
             --checkbox-color-hover: transparent;
-            border-width: 0;
+            border-width: 0;}
+
         }
     }
 
@@ -239,10 +247,11 @@ Icons were taken from Font Awesome: https://fontawesome.com/
                 left: calc(var(--checkbox-size) * 1);
                 font-weight: bold;
             }
+            & {
 
             --checkbox-color: transparent;
             --checkbox-color-hover: transparent;
-            border-width: 0;
+            border-width: 0;}
         }
     }
 
@@ -265,10 +274,11 @@ Icons were taken from Font Awesome: https://fontawesome.com/
                 left: calc(var(--checkbox-size) * 1);
                 font-weight: bold;
             }
-
+            & {
             --checkbox-color: transparent;
             --checkbox-color-hover: transparent;
-            border-width: 0;
+            border-width: 0;}
+
         }
     }
 
@@ -291,10 +301,11 @@ Icons were taken from Font Awesome: https://fontawesome.com/
                 left: calc(var(--checkbox-size) * 1);
                 font-weight: bold;
             }
-
+            & {
             --checkbox-color: transparent;
             --checkbox-color-hover: transparent;
-            border-width: 0;
+            border-width: 0;}
+
         }
     }
 
@@ -317,10 +328,11 @@ Icons were taken from Font Awesome: https://fontawesome.com/
                 left: calc(var(--checkbox-size) * 1);
                 font-weight: bold;
             }
+            & {
 
             --checkbox-color: transparent;
             --checkbox-color-hover: transparent;
-            border-width: 0;
+            border-width: 0;}
         }
     }
 
@@ -340,10 +352,11 @@ Icons were taken from Font Awesome: https://fontawesome.com/
                 left: calc(var(--checkbox-size) * 1);
                 font-weight: bold;
             }
-
+            & {
             --checkbox-color: rgba(var(--ctp-subtext0), 0.3);
             --checkbox-color-hover: rgba(var(--ctp-subtext0), 0.3);
-            border-color: rgb(var(--ctp-subtext0)) !important;
+            border-color: rgb(var(--ctp-subtext0)) !important;}
+
         }
     }
 
@@ -366,10 +379,11 @@ Icons were taken from Font Awesome: https://fontawesome.com/
                 left: calc(var(--checkbox-size) * 1);
                 font-weight: bold;
             }
+            & {
 
             --checkbox-color: transparent;
             --checkbox-color-hover: transparent;
-            border-width: 0;
+            border-width: 0;}
         }
     }
 
@@ -393,9 +407,10 @@ Icons were taken from Font Awesome: https://fontawesome.com/
                 font-weight: bold;
             }
 
+            & {
             --checkbox-color: transparent;
             --checkbox-color-hover: transparent;
-            border-width: 0;
+            border-width: 0;}
         }
     }
 
@@ -418,10 +433,11 @@ Icons were taken from Font Awesome: https://fontawesome.com/
                 left: calc(var(--checkbox-size) * 1);
                 font-weight: bold;
             }
-
+            & {
             --checkbox-color: transparent;
             --checkbox-color-hover: transparent;
-            border-width: 0;
+            border-width: 0;}
+
         }
     }
 
@@ -444,10 +460,11 @@ Icons were taken from Font Awesome: https://fontawesome.com/
                 left: calc(var(--checkbox-size) * 1);
                 font-weight: bold;
             }
-
+            & {
             --checkbox-color: transparent;
             --checkbox-color-hover: transparent;
-            border-width: 0;
+            border-width: 0;}
+
         }
     }
 
@@ -471,9 +488,10 @@ Icons were taken from Font Awesome: https://fontawesome.com/
                 font-weight: bold;
             }
 
+            & {
             --checkbox-color: transparent;
             --checkbox-color-hover: transparent;
-            border-width: 0;
+            border-width: 0;}
         }
     }
 
@@ -496,10 +514,11 @@ Icons were taken from Font Awesome: https://fontawesome.com/
                 left: calc(var(--checkbox-size) * 1);
                 font-weight: bold;
             }
-
+            & {
             --checkbox-color: transparent;
             --checkbox-color-hover: transparent;
-            border-width: 0;
+            border-width: 0;}
+
         }
     }
 
@@ -522,10 +541,11 @@ Icons were taken from Font Awesome: https://fontawesome.com/
                 left: calc(var(--checkbox-size) * 1);
                 font-weight: bold;
             }
-
+            & {
             --checkbox-color: transparent;
             --checkbox-color-hover: transparent;
-            border-width: 0;
+            border-width: 0;}
+
         }
     }
 
@@ -548,10 +568,11 @@ Icons were taken from Font Awesome: https://fontawesome.com/
                 left: calc(var(--checkbox-size) * 1);
                 font-weight: bold;
             }
-
+            & {
             --checkbox-color: transparent;
             --checkbox-color-hover: transparent;
-            border-width: 0;
+            border-width: 0;}
+
         }
     }
 }
@@ -656,10 +677,11 @@ $labels: (
             background-color: rgba(var(--ctp-crust), 0.2);
             background: rgba(var(--ctp-crust), 0.2);
         }
-
+        & {
         transition: background-color 0.2s,
         background 0.2s,
-        border-radius 0.2s;
+        border-radius 0.2s;}
+
     }
 }
 

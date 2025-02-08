@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*===============================================================
                            AnuPpuccin
                            ----------
@@ -3275,19 +3276,14 @@ settings:
   --color-base-100: rgb(var(--ctp-text));
   --text-highlight-bg: rgba(var(--ctp-yellow), 0.2);
   --text-highlight-bg-active: rgba(var(--ctp-yellow), 0.4);
-  --input-shadow: inset 0 0.5px 0.5px 0.5px rgba(var(255, 255, 255), 0.09),
-      0 2px 4px 0 rgba(var(--ctp-crust), 0.15),
-      0 1px 1.5px 0 rgba(var(--ctp-crust), 0.1),
-      0 1px 2px 0 rgba(var(--ctp-crust), 0.2), 0 0 0 0 transparent;
+  --input-shadow: inset 0 0.5px 0.5px 0.5px rgba(var(255, 255, 255), 0.09), 0 2px 4px 0 rgba(var(--ctp-crust), 0.15),
+      0 1px 1.5px 0 rgba(var(--ctp-crust), 0.1), 0 1px 2px 0 rgba(var(--ctp-crust), 0.2), 0 0 0 0 transparent;
   --input-shadow-hover: inset 0 0.5px 1px 0.5px rgba(var(255, 255, 255), 0.16),
-      0 2px 3px 0 rgba(var(--ctp-crust), 0.3),
-      0 1px 1.5px 0 rgba(var(--ctp-crust), 0.2),
+      0 2px 3px 0 rgba(var(--ctp-crust), 0.3), 0 1px 1.5px 0 rgba(var(--ctp-crust), 0.2),
       0 1px 2px 0 rgba(var(--ctp-crust), 0.4), 0 0 0 0 transparent;
-  --shadow-s: 0px 1px 2px rgba(var(--ctp-crust), 0.121),
-      0px 3.4px 6.7px rgba(var(--ctp-crust), 0.179),
+  --shadow-s: 0px 1px 2px rgba(var(--ctp-crust), 0.121), 0px 3.4px 6.7px rgba(var(--ctp-crust), 0.179),
       0px 15px 30px rgba(var(--ctp-crust), 0.3);
-  --shadow-l: 0px 1.8px 7.3px rgba(var(--ctp-crust), 0.071),
-      0px 6.3px 24.7px rgba(var(--ctp-crust), 0.112),
+  --shadow-l: 0px 1.8px 7.3px rgba(var(--ctp-crust), 0.071), 0px 6.3px 24.7px rgba(var(--ctp-crust), 0.112),
       0px 30px 90px rgba(var(--ctp-crust), 0.2);
   --background-primary: rgb(var(--ctp-base));
   --background-primary-alt: rgb(var(--ctp-mantle));
@@ -4750,6 +4746,7 @@ Support me: https://buymeacoffee.com/AnubisNekhet
   --callout-border-width: 1px;
   background-color: rgba(var(--ctp-mantle), 0.4);
 }
+
 .anp-callout-sleek .callout:not([data-callout-metadata*=anp-block],
 [data-callout-metadata*=anp-vanilla-normal],
 [data-callout-metadata*=anp-vanilla-plus]):not([data-callout-metadata*=revert],
@@ -4760,6 +4757,7 @@ Support me: https://buymeacoffee.com/AnubisNekhet
 [data-callout=multi-column]) > .callout-title {
   background-color: rgba(var(--callout-color), var(--callout-title-opacity, 0.1));
 }
+
 .anp-callout-sleek .callout:not([data-callout-metadata*=anp-block],
 [data-callout-metadata*=anp-vanilla-normal],
 [data-callout-metadata*=anp-vanilla-plus]):not([data-callout-metadata*=revert],
@@ -4770,6 +4768,7 @@ Support me: https://buymeacoffee.com/AnubisNekhet
 [data-callout=multi-column]) > .callout-content {
   border-top: var(--callout-border-width) dashed rgba(var(--callout-color), var(--callout-border-opacity));
 }
+
 .anp-callout-sleek .callout:not([data-callout-metadata*=anp-block],
 [data-callout-metadata*=anp-vanilla-normal],
 [data-callout-metadata*=anp-vanilla-plus]):not([data-callout-metadata*=revert],
@@ -4792,6 +4791,7 @@ Support me: https://buymeacoffee.com/AnubisNekhet
 [data-callout=multi-column]) {
   background-color: transparent;
 }
+
 .anp-callout-vanilla-normal .callout:not([data-callout-metadata*=anp-sleek],
 [data-callout-metadata*=anp-vanilla-plus],
 [data-callout-metadata*=anp-block]):not([data-callout-metadata*=revert],
@@ -4802,6 +4802,7 @@ Support me: https://buymeacoffee.com/AnubisNekhet
 [data-callout=multi-column]) > .callout-title {
   background-color: rgba(var(--callout-color), var(--callout-title-opacity, 0.1));
 }
+
 .anp-callout-vanilla-normal .callout:not([data-callout-metadata*=anp-sleek],
 [data-callout-metadata*=anp-vanilla-plus],
 [data-callout-metadata*=anp-block]):not([data-callout-metadata*=revert],
@@ -4812,6 +4813,7 @@ Support me: https://buymeacoffee.com/AnubisNekhet
 [data-callout=multi-column]) > .callout-content {
   background-color: rgb(var(--ctp-mantle));
 }
+
 .anp-callout-vanilla-normal .callout:not([data-callout-metadata*=anp-sleek],
 [data-callout-metadata*=anp-vanilla-plus],
 [data-callout-metadata*=anp-block]):not([data-callout-metadata*=revert],
@@ -4841,6 +4843,7 @@ Support me: https://buymeacoffee.com/AnubisNekhet
 [data-callout=multi-column]) {
   background-color: transparent;
 }
+
 .anp-callout-vanilla-plus .callout:not([data-callout-metadata*=anp-sleek],
 [data-callout-metadata*=anp-vanilla-normal],
 [data-callout-metadata*=anp-block]):not([data-callout-metadata*=revert],
@@ -4852,6 +4855,7 @@ Support me: https://buymeacoffee.com/AnubisNekhet
   background-color: rgba(var(--callout-color), var(--callout-title-opacity, 0.1));
   border-left: var(--size-2-3) solid rgb(var(--callout-color));
 }
+
 .anp-callout-vanilla-plus .callout:not([data-callout-metadata*=anp-sleek],
 [data-callout-metadata*=anp-vanilla-normal],
 [data-callout-metadata*=anp-block]):not([data-callout-metadata*=revert],
@@ -5698,78 +5702,6 @@ hr {
   color: rgb(var(--ctp-lavender));
 }
 
-.anp-latex-inline-text span.math:not(.math-block) {
-  color: rgb(var(--ctp-text));
-}
-
-.anp-latex-block-text .math-block {
-  color: rgb(var(--ctp-text));
-}
-
-.anp-latex-inline-subtext1 span.math:not(.math-block) {
-  color: rgb(var(--ctp-subtext1));
-}
-
-.anp-latex-block-subtext1 .math-block {
-  color: rgb(var(--ctp-subtext1));
-}
-
-.anp-latex-inline-subtext0 span.math:not(.math-block) {
-  color: rgb(var(--ctp-subtext0));
-}
-
-.anp-latex-block-subtext0 .math-block {
-  color: rgb(var(--ctp-subtext0));
-}
-
-.anp-latex-inline-overlay2 span.math:not(.math-block) {
-  color: rgb(var(--ctp-overlay2));
-}
-
-.anp-latex-block-overlay2 .math-block {
-  color: rgb(var(--ctp-overlay2));
-}
-
-.anp-latex-inline-overlay1 span.math:not(.math-block) {
-  color: rgb(var(--ctp-overlay1));
-}
-
-.anp-latex-block-overlay1 .math-block {
-  color: rgb(var(--ctp-overlay1));
-}
-
-.anp-latex-inline-overlay0 span.math:not(.math-block) {
-  color: rgb(var(--ctp-overlay0));
-}
-
-.anp-latex-block-overlay0 .math-block {
-  color: rgb(var(--ctp-overlay0));
-}
-
-.anp-latex-inline-surface2 span.math:not(.math-block) {
-  color: rgb(var(--ctp-surface2));
-}
-
-.anp-latex-block-surface2 .math-block {
-  color: rgb(var(--ctp-surface2));
-}
-
-.anp-latex-inline-surface1 span.math:not(.math-block) {
-  color: rgb(var(--ctp-surface1));
-}
-
-.anp-latex-block-surface1 .math-block {
-  color: rgb(var(--ctp-surface1));
-}
-
-.anp-latex-inline-surface0 span.math:not(.math-block) {
-  color: rgb(var(--ctp-surface0));
-}
-
-.anp-latex-block-surface0 .math-block {
-  color: rgb(var(--ctp-surface0));
-}
-
 .math-block {
   font-size: var(--anp-latex-block-font-size, var(--font-size-lg));
 }
@@ -6031,16 +5963,16 @@ body.rainbow-tags {
   margin-left: 10px;
 }
 
-.anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card], .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card] {
-  background-color: var(--background-primary);
-  border-radius: 6px;
-  mix-blend-mode: normal;
-  overflow-y: hidden;
-}
 .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card] > .callout-content, .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card] > .callout-content {
   padding: 0;
   background-color: var(--background-primary);
   overflow-y: hidden;
+}
+.anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card], .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card] {
+  overflow-y: hidden;
+  mix-blend-mode: normal;
+  background-color: var(--background-primary);
+  border-radius: 6px;
 }
 .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card-prop], .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card-prop] {
   border-radius: 0;
@@ -6053,10 +5985,6 @@ body.rainbow-tags {
 .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card-prop] > .callout-content, .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card-prop] > .callout-content {
   padding: 0;
 }
-.anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop], .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop] {
-  border: none;
-  padding: 0;
-}
 .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop] > .callout-content, .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop] > .callout-content {
   margin: 0 10px 7px 10px;
   background-color: var(--background-primary);
@@ -6067,41 +5995,49 @@ body.rainbow-tags {
 }
 .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop] > .callout-title, .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop] > .callout-title {
   text-transform: uppercase;
-  background-color: transparent;
 }
 .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop] > .callout-title > .callout-title-inner, .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop] > .callout-title > .callout-title-inner {
   color: rgba(var(--ctp-text), 0.7);
   font-size: 80%;
 }
-.anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-index], .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-index] {
-  border-radius: 0;
-  margin: -1px;
+.anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop] > .callout-title, .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop] > .callout-title {
+  background-color: transparent;
+}
+.anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop], .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop] {
+  border: none;
+  padding: 0;
 }
 .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-index] > .callout-content, .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-index] > .callout-content {
   padding: 0;
 }
+.anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-index], .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-index] {
+  border-radius: 0;
+}
 .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-index] p:first-child, .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-index] p:first-child {
   margin-bottom: 0;
 }
-.anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-sidebar], .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-sidebar] {
-  background-color: var(--background-secondary);
+.anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-index], .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-index] {
+  margin: -1px;
 }
 .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-sidebar] > .callout-content, .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-sidebar] > .callout-content {
   padding-right: 0;
   padding-left: 0;
   background-color: var(--background-secondary);
 }
+.anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-sidebar], .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-sidebar] {
+  background-color: var(--background-secondary);
+}
 .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop-image] > .callout-content, .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop-image] > .callout-content {
   padding: 0;
+}
+.anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-body] > .callout-content, .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-body] > .callout-content {
+  padding: var(--callout-padding);
+  background-color: var(--background-primary);
 }
 .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-body], .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-body] {
   border-width: 0 1px 0 0;
   background-color: var(--background-primary);
   mix-blend-mode: normal;
-}
-.anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-body] > .callout-content, .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-body] > .callout-content {
-  padding: var(--callout-padding);
-  background-color: var(--background-primary);
 }
 .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-index], .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card-prop], .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop-image], .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-sidebar], .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-body], .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card], .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-index], .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card-prop], .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop-image], .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-sidebar], .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-body], .anp-callout-toggle.anp-callout-toggle.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card] {
   border-color: var(--background-modifier-border);
@@ -6325,9 +6261,6 @@ body.anp-colorful-frame-icon-toggle-dark.theme-dark {
 .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused .mod-top .workspace-tab-header-new-tab .clickable-icon:hover {
   color: var(--colorful-icon-color-alt);
 }
-.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).anp-mini-tab-toggle .mod-top, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.anp-mini-tab-toggle .mod-top, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.anp-mini-tab-toggle .mod-top, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.is-focused.anp-mini-tab-toggle .mod-top {
-  --tab-text-color-focused-active-current: var(--colorful-icon-color-alt);
-}
 .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).anp-mini-tab-toggle .mod-top .workspace-tab-header,
 .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).anp-mini-tab-toggle .mod-top .workspace-tab-header.is-active, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header,
 .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header.is-active, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header,
@@ -6344,6 +6277,9 @@ body.anp-colorful-frame-icon-toggle-dark.theme-dark {
 .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-close-button, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header .workspace-tab-header-inner-close-button,
 .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-close-button {
   --tab-text-color-focused: var(--colorful-icon-color-alt);
+  --tab-text-color-focused-active-current: var(--colorful-icon-color-alt);
+}
+.anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).anp-mini-tab-toggle .mod-top, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.anp-mini-tab-toggle .mod-top, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.anp-mini-tab-toggle .mod-top, .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout).is-focused.is-focused.anp-mini-tab-toggle .mod-top {
   --tab-text-color-focused-active-current: var(--colorful-icon-color-alt);
 }
 .anp-colorful-frame:not(.anp-card-layout, .anp-border-layout) .mod-right-split .mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
@@ -6644,11 +6580,6 @@ Icons were taken from Font Awesome: https://fontawesome.com/
   --checkbox-color: rgb(var(--ctp-green));
   --checkbox-color-hover: rgb(var(--ctp-green));
 }
-.anp-custom-checkboxes [data-task="!"] > input[type=checkbox]:checked,
-.anp-custom-checkboxes [data-task="!"] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task="!"][type=checkbox]:checked {
-  --checkbox-color: rgb(var(--ctp-yellow));
-  --checkbox-color-hover: rgb(var(--ctp-yellow));
-}
 .anp-custom-checkboxes [data-task="!"] > input[type=checkbox]:checked:after,
 .anp-custom-checkboxes [data-task="!"] > p > input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task="!"][type=checkbox]:checked:after {
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 512'%3E%3C!--!  --%3E%3Cpath d='M96 64c0-17.7-14.3-32-32-32S32 46.3 32 64V320c0 17.7 14.3 32 32 32s32-14.3 32-32V64zM64 480c22.1 0 40-17.9 40-40s-17.9-40-40-40s-40 17.9-40 40s17.9 40 40 40z'/%3E%3C/svg%3E");
@@ -6662,11 +6593,10 @@ Icons were taken from Font Awesome: https://fontawesome.com/
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-.anp-custom-checkboxes [data-task="?"] > input[type=checkbox]:checked,
-.anp-custom-checkboxes [data-task="?"] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task="?"][type=checkbox]:checked {
-  --checkbox-color: transparent;
-  --checkbox-color-hover: transparent;
-  border-width: 0;
+.anp-custom-checkboxes [data-task="!"] > input[type=checkbox]:checked,
+.anp-custom-checkboxes [data-task="!"] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task="!"][type=checkbox]:checked {
+  --checkbox-color: rgb(var(--ctp-yellow));
+  --checkbox-color-hover: rgb(var(--ctp-yellow));
 }
 .anp-custom-checkboxes [data-task="?"] > input[type=checkbox]:checked:after,
 .anp-custom-checkboxes [data-task="?"] > p > input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task="?"][type=checkbox]:checked:after {
@@ -6683,14 +6613,15 @@ Icons were taken from Font Awesome: https://fontawesome.com/
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
+.anp-custom-checkboxes [data-task="?"] > input[type=checkbox]:checked,
+.anp-custom-checkboxes [data-task="?"] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task="?"][type=checkbox]:checked {
+  --checkbox-color: transparent;
+  --checkbox-color-hover: transparent;
+  border-width: 0;
+}
 .anp-custom-checkboxes [data-task="-"] {
   text-decoration: var(--checklist-done-decoration);
   color: var(--checklist-done-color);
-}
-.anp-custom-checkboxes [data-task="-"] > input[type=checkbox]:checked,
-.anp-custom-checkboxes [data-task="-"] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task="-"][type=checkbox]:checked {
-  --checkbox-color: rgb(var(--ctp-red));
-  --checkbox-color-hover: rgb(var(--ctp-red));
 }
 .anp-custom-checkboxes [data-task="-"] > input[type=checkbox]:checked:after,
 .anp-custom-checkboxes [data-task="-"] > p > input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task="-"][type=checkbox]:checked:after {
@@ -6705,11 +6636,10 @@ Icons were taken from Font Awesome: https://fontawesome.com/
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-.anp-custom-checkboxes [data-task=b] > input[type=checkbox]:checked,
-.anp-custom-checkboxes [data-task=b] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=b][type=checkbox]:checked {
-  --checkbox-color: transparent;
-  --checkbox-color-hover: transparent;
-  border-width: 0;
+.anp-custom-checkboxes [data-task="-"] > input[type=checkbox]:checked,
+.anp-custom-checkboxes [data-task="-"] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task="-"][type=checkbox]:checked {
+  --checkbox-color: rgb(var(--ctp-red));
+  --checkbox-color-hover: rgb(var(--ctp-red));
 }
 .anp-custom-checkboxes [data-task=b] > input[type=checkbox]:checked:after,
 .anp-custom-checkboxes [data-task=b] > p > input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task=b][type=checkbox]:checked:after {
@@ -6726,8 +6656,8 @@ Icons were taken from Font Awesome: https://fontawesome.com/
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-.anp-custom-checkboxes [data-task=I] > input[type=checkbox]:checked,
-.anp-custom-checkboxes [data-task=I] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=I][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task=b] > input[type=checkbox]:checked,
+.anp-custom-checkboxes [data-task=b] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=b][type=checkbox]:checked {
   --checkbox-color: transparent;
   --checkbox-color-hover: transparent;
   border-width: 0;
@@ -6747,8 +6677,8 @@ Icons were taken from Font Awesome: https://fontawesome.com/
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-.anp-custom-checkboxes [data-task=p] > input[type=checkbox]:checked,
-.anp-custom-checkboxes [data-task=p] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=p][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task=I] > input[type=checkbox]:checked,
+.anp-custom-checkboxes [data-task=I] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=I][type=checkbox]:checked {
   --checkbox-color: transparent;
   --checkbox-color-hover: transparent;
   border-width: 0;
@@ -6768,8 +6698,8 @@ Icons were taken from Font Awesome: https://fontawesome.com/
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-.anp-custom-checkboxes [data-task=c] > input[type=checkbox]:checked,
-.anp-custom-checkboxes [data-task=c] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=c][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task=p] > input[type=checkbox]:checked,
+.anp-custom-checkboxes [data-task=p] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=p][type=checkbox]:checked {
   --checkbox-color: transparent;
   --checkbox-color-hover: transparent;
   border-width: 0;
@@ -6789,8 +6719,8 @@ Icons were taken from Font Awesome: https://fontawesome.com/
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-.anp-custom-checkboxes [data-task=i] > input[type=checkbox]:checked,
-.anp-custom-checkboxes [data-task=i] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=i][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task=c] > input[type=checkbox]:checked,
+.anp-custom-checkboxes [data-task=c] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=c][type=checkbox]:checked {
   --checkbox-color: transparent;
   --checkbox-color-hover: transparent;
   border-width: 0;
@@ -6810,8 +6740,8 @@ Icons were taken from Font Awesome: https://fontawesome.com/
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-.anp-custom-checkboxes [data-task=l] > input[type=checkbox]:checked,
-.anp-custom-checkboxes [data-task=l] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=l][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task=i] > input[type=checkbox]:checked,
+.anp-custom-checkboxes [data-task=i] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=i][type=checkbox]:checked {
   --checkbox-color: transparent;
   --checkbox-color-hover: transparent;
   border-width: 0;
@@ -6831,8 +6761,8 @@ Icons were taken from Font Awesome: https://fontawesome.com/
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-.anp-custom-checkboxes [data-task="*"] > input[type=checkbox]:checked,
-.anp-custom-checkboxes [data-task="*"] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task="*"][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task=l] > input[type=checkbox]:checked,
+.anp-custom-checkboxes [data-task=l] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=l][type=checkbox]:checked {
   --checkbox-color: transparent;
   --checkbox-color-hover: transparent;
   border-width: 0;
@@ -6852,8 +6782,8 @@ Icons were taken from Font Awesome: https://fontawesome.com/
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-.anp-custom-checkboxes [data-task=n] > input[type=checkbox]:checked,
-.anp-custom-checkboxes [data-task=n] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=n][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task="*"] > input[type=checkbox]:checked,
+.anp-custom-checkboxes [data-task="*"] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task="*"][type=checkbox]:checked {
   --checkbox-color: transparent;
   --checkbox-color-hover: transparent;
   border-width: 0;
@@ -6873,8 +6803,8 @@ Icons were taken from Font Awesome: https://fontawesome.com/
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-.anp-custom-checkboxes [data-task=S] > input[type=checkbox]:checked,
-.anp-custom-checkboxes [data-task=S] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=S][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task=n] > input[type=checkbox]:checked,
+.anp-custom-checkboxes [data-task=n] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=n][type=checkbox]:checked {
   --checkbox-color: transparent;
   --checkbox-color-hover: transparent;
   border-width: 0;
@@ -6894,11 +6824,11 @@ Icons were taken from Font Awesome: https://fontawesome.com/
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-.anp-custom-checkboxes [data-task="/"] > input[type=checkbox]:checked,
-.anp-custom-checkboxes [data-task="/"] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task="/"][type=checkbox]:checked {
-  --checkbox-color: rgba(var(--ctp-subtext0), 0.3);
-  --checkbox-color-hover: rgba(var(--ctp-subtext0), 0.3);
-  border-color: rgb(var(--ctp-subtext0)) !important;
+.anp-custom-checkboxes [data-task=S] > input[type=checkbox]:checked,
+.anp-custom-checkboxes [data-task=S] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=S][type=checkbox]:checked {
+  --checkbox-color: transparent;
+  --checkbox-color-hover: transparent;
+  border-width: 0;
 }
 .anp-custom-checkboxes [data-task="/"] > input[type=checkbox]:checked:after,
 .anp-custom-checkboxes [data-task="/"] > p > input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task="/"][type=checkbox]:checked:after {
@@ -6912,11 +6842,11 @@ Icons were taken from Font Awesome: https://fontawesome.com/
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-.anp-custom-checkboxes [data-task="<"] > input[type=checkbox]:checked,
-.anp-custom-checkboxes [data-task="<"] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task="<"][type=checkbox]:checked {
-  --checkbox-color: transparent;
-  --checkbox-color-hover: transparent;
-  border-width: 0;
+.anp-custom-checkboxes [data-task="/"] > input[type=checkbox]:checked,
+.anp-custom-checkboxes [data-task="/"] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task="/"][type=checkbox]:checked {
+  --checkbox-color: rgba(var(--ctp-subtext0), 0.3);
+  --checkbox-color-hover: rgba(var(--ctp-subtext0), 0.3);
+  border-color: rgb(var(--ctp-subtext0)) !important;
 }
 .anp-custom-checkboxes [data-task="<"] > input[type=checkbox]:checked:after,
 .anp-custom-checkboxes [data-task="<"] > p > input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task="<"][type=checkbox]:checked:after {
@@ -6933,8 +6863,8 @@ Icons were taken from Font Awesome: https://fontawesome.com/
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-.anp-custom-checkboxes [data-task=">"] > input[type=checkbox]:checked,
-.anp-custom-checkboxes [data-task=">"] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=">"][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task="<"] > input[type=checkbox]:checked,
+.anp-custom-checkboxes [data-task="<"] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task="<"][type=checkbox]:checked {
   --checkbox-color: transparent;
   --checkbox-color-hover: transparent;
   border-width: 0;
@@ -6954,8 +6884,8 @@ Icons were taken from Font Awesome: https://fontawesome.com/
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-.anp-custom-checkboxes [data-task='"'] > input[type=checkbox]:checked,
-.anp-custom-checkboxes [data-task='"'] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task='"'][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task=">"] > input[type=checkbox]:checked,
+.anp-custom-checkboxes [data-task=">"] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=">"][type=checkbox]:checked {
   --checkbox-color: transparent;
   --checkbox-color-hover: transparent;
   border-width: 0;
@@ -6975,8 +6905,8 @@ Icons were taken from Font Awesome: https://fontawesome.com/
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-.anp-custom-checkboxes [data-task=u] > input[type=checkbox]:checked,
-.anp-custom-checkboxes [data-task=u] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=u][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task='"'] > input[type=checkbox]:checked,
+.anp-custom-checkboxes [data-task='"'] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task='"'][type=checkbox]:checked {
   --checkbox-color: transparent;
   --checkbox-color-hover: transparent;
   border-width: 0;
@@ -6996,8 +6926,8 @@ Icons were taken from Font Awesome: https://fontawesome.com/
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-.anp-custom-checkboxes [data-task=d] > input[type=checkbox]:checked,
-.anp-custom-checkboxes [data-task=d] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=d][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task=u] > input[type=checkbox]:checked,
+.anp-custom-checkboxes [data-task=u] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=u][type=checkbox]:checked {
   --checkbox-color: transparent;
   --checkbox-color-hover: transparent;
   border-width: 0;
@@ -7017,8 +6947,8 @@ Icons were taken from Font Awesome: https://fontawesome.com/
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-.anp-custom-checkboxes [data-task=f] > input[type=checkbox]:checked,
-.anp-custom-checkboxes [data-task=f] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=f][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task=d] > input[type=checkbox]:checked,
+.anp-custom-checkboxes [data-task=d] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=d][type=checkbox]:checked {
   --checkbox-color: transparent;
   --checkbox-color-hover: transparent;
   border-width: 0;
@@ -7038,8 +6968,8 @@ Icons were taken from Font Awesome: https://fontawesome.com/
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-.anp-custom-checkboxes [data-task=k] > input[type=checkbox]:checked,
-.anp-custom-checkboxes [data-task=k] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=k][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task=f] > input[type=checkbox]:checked,
+.anp-custom-checkboxes [data-task=f] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=f][type=checkbox]:checked {
   --checkbox-color: transparent;
   --checkbox-color-hover: transparent;
   border-width: 0;
@@ -7059,8 +6989,8 @@ Icons were taken from Font Awesome: https://fontawesome.com/
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
 }
-.anp-custom-checkboxes [data-task=w] > input[type=checkbox]:checked,
-.anp-custom-checkboxes [data-task=w] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=w][type=checkbox]:checked {
+.anp-custom-checkboxes [data-task=k] > input[type=checkbox]:checked,
+.anp-custom-checkboxes [data-task=k] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=k][type=checkbox]:checked {
   --checkbox-color: transparent;
   --checkbox-color-hover: transparent;
   border-width: 0;
@@ -7079,6 +7009,12 @@ Icons were taken from Font Awesome: https://fontawesome.com/
   position: absolute;
   left: calc(var(--checkbox-size) * 1);
   font-weight: bold;
+}
+.anp-custom-checkboxes [data-task=w] > input[type=checkbox]:checked,
+.anp-custom-checkboxes [data-task=w] > p > input[type=checkbox]:checked, .anp-custom-checkboxes [data-task=w][type=checkbox]:checked {
+  --checkbox-color: transparent;
+  --checkbox-color-hover: transparent;
+  border-width: 0;
 }
 
 .anp-custom-checkboxes-labels [data-task="!"] input[type=checkbox]:checked:before, .anp-custom-checkboxes-labels [data-task="!"][type=checkbox]:checked:before {
@@ -7215,7 +7151,6 @@ Icons were taken from Font Awesome: https://fontawesome.com/
 .theme-dark.anp-speech-bubble [data-task="8"],
 .theme-dark.anp-speech-bubble [data-task="9"] {
   --text-normal: var(--background-primary);
-  transition: background-color 0.2s, background 0.2s, border-radius 0.2s;
 }
 .theme-dark.anp-speech-bubble [data-task="0"]::selection,
 .theme-dark.anp-speech-bubble [data-task="1"]::selection,
@@ -7229,6 +7164,18 @@ Icons were taken from Font Awesome: https://fontawesome.com/
 .theme-dark.anp-speech-bubble [data-task="9"]::selection {
   background-color: rgba(var(--ctp-crust), 0.2);
   background: rgba(var(--ctp-crust), 0.2);
+}
+.theme-dark.anp-speech-bubble [data-task="0"],
+.theme-dark.anp-speech-bubble [data-task="1"],
+.theme-dark.anp-speech-bubble [data-task="2"],
+.theme-dark.anp-speech-bubble [data-task="3"],
+.theme-dark.anp-speech-bubble [data-task="4"],
+.theme-dark.anp-speech-bubble [data-task="5"],
+.theme-dark.anp-speech-bubble [data-task="6"],
+.theme-dark.anp-speech-bubble [data-task="7"],
+.theme-dark.anp-speech-bubble [data-task="8"],
+.theme-dark.anp-speech-bubble [data-task="9"] {
+  transition: background-color 0.2s, background 0.2s, border-radius 0.2s;
 }
 
 .anp-speech-bubble .is-live-preview [data-task="0"].cm-active,
@@ -9078,3 +9025,5 @@ body:not(.is-mobile):not(.anp-hide-status-bar) .kanban-plugin__board > div {
   background-color: transparent;
   color: inherit;
 }
+
+/*# sourceMappingURL=theme.css.map */
